@@ -5,7 +5,7 @@ Shows off how to bundle external dependancies for use in LWC service components.
 ## Notable files
 
 - `js/stateMachine.js` - Unbundled JavaScript file.
-- `force-app/main/default/lwc/stateMachine.js` - Bundled JavaScript file.
+- `force-app/main/default/lwc/stateMachine/stateMachine.js` - Bundled JavaScript file.
 - `force-app/main/default/lwc/testScreens` - Example LWC component to show off use of state machine service component.
 - `rollup.config.js` - Rollup.js configuration file.
 
