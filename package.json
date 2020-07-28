@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Salesforce App",
   "scripts": {
+    "build": "npm run build:rollup",
+    "build:rollup": "rollup --config",
+    "build:rollup:watch": "rollup --config -w",
     "lint": "npm run lint:lwc",
     "lint:lwc": "eslint force-app/main/default/lwc",
     "test": "npm run test:unit",
