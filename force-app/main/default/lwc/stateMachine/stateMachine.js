@@ -16,10 +16,11 @@ var t;!function(t){t[t.NotStarted=0]="NotStarted",t[t.Running=1]="Running",t[t.S
 
 const toggleMachine = c({
   id: 'toggle',
-  initial: 'inactive',
+  initial: 'step1',
   states: {
-    inactive: { on: { TOGGLE: 'active' } },
-    active: { on: { TOGGLE: 'inactive' } }
+    step1: { on: { TOGGLE: 'step2' } },
+    step2: { on: { TOGGLE: 'step3' } },
+    step3: { on: { TOGGLE: 'step1' } },
   }
 });
 
